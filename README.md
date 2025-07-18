@@ -26,7 +26,7 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
 ```
 cd java_backend
 mvn clean package
-java -jar target/cyber-backend-1.0-SNAPSHOT.jar```
+java -jar target/cyber-backend-1.0-SNAPSHOT.jar
 
 
 Access at `http://localhost:8080`.
