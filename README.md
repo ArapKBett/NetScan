@@ -24,7 +24,7 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
 2. Build Java Backendbash
 
 ```bash
-cd backend
+cd java_backend
 mvn clean install
 java -jar target/cybertool-backend.jar```
 
