@@ -19,25 +19,24 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
    ```bash
    cd c++_scanner
    mkdir build && cd build
-   cmake .. && make
+   cmake .. && make```
 
-2. Build Java Backendbash
+2. Build and Run Java Backend:
 
 ```bash
+
 cd java_backend
-mvn clean install
-java -jar target/cybertool-backend.jar```
+mvn clean package
+java -jar target/cyber-backend-1.0-SNAPSHOT.jar```
 
-3. Run Web InterfaceEnsure the backend is running.
-Navigate to the frontend directory and follow the instructions in its README (e.g., serve the static files using a web server like Nginx or Node.js).
 
-4. Docker Setupbash
+Access at `http://localhost:8080`.
+
+3. Build Docker Image
 
 ```bash
-# Build Docker image
-docker build -t cybertool .
 
-# Run Docker container
-docker run -p 8080:8080 cybertool```
+docker build -t NetScan .
+docker run -p 8080:8080 NetScan```
 
 
