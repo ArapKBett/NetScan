@@ -19,7 +19,7 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
    ```bash
    cd c++_scanner
    mkdir build && cd build
-   cmake .. && make```
+   cmake .. && make
 
 2. Build and Run Java Backend:
 
