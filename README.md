@@ -29,11 +29,12 @@ mvn clean package
 java -jar target/cyber-backend-1.0-SNAPSHOT.jar
 
 
-Access at `http://localhost:8080`.
+Access at http://localhost:8080.
 
 3. Build Docker Image
 
-```docker build -t NetScan .
-docker run -p 8080:8080 NetScan```
+```bash
+docker build -t NetScan .
+docker run -p 8080:8080 NetScan
 
 
