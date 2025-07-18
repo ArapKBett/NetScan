@@ -23,20 +23,16 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
 
 2. Build and Run Java Backend:
 
-```bash
-
-cd java_backend
+```cd java_backend
 mvn clean package
 java -jar target/cyber-backend-1.0-SNAPSHOT.jar```
 
 
-Access at `http://localhost:8080`.
+Access at `http://localhost:8080`.
 
 3. Build Docker Image
 
-```bash
-
-docker build -t NetScan .
+```docker build -t NetScan .
 docker run -p 8080:8080 NetScan```
 
 
