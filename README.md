@@ -23,7 +23,8 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
 
 2. Build and Run Java Backend:
 
-```cd java_backend
+```
+cd java_backend
 mvn clean package
 java -jar target/cyber-backend-1.0-SNAPSHOT.jar```
 
