@@ -33,8 +33,8 @@ Access at http://localhost:8080.
 
 3. Build Docker Image
 
-```
-docker build -t NetScan .
-docker run -p 8080:8080 NetScan
+
+`docker build -t NetScan .
+docker run -p 8080:8080 NetScan`
 
 
