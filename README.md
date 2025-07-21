@@ -81,7 +81,7 @@ For example, use ngrok to create a secure public URL forwarding to your local Sp
 
 Or use the localhost-run-spring-boot-starter dependency to generate public URLs automatically.
 
-4. Access via HTTPS (Optional, Local Dev)
+Access via HTTPS (Optional, Local Dev)
 Spring Boot by default runs HTTP. For HTTPS:
 
 Generate a self-signed certificate and configure your app to use it in application.properties:
@@ -96,24 +96,3 @@ Then use:
 
 `https://localhost:8443/`
 
-
-
-1. **Build C++ Scanner**:
-   ```bash
-   cd c++_scanner
-   mkdir build && cd build
-   cmake .. && make
-
-2. Build and Run Java Backend:
-
-```bash
-cd java_backend
-mvn clean package
-java -jar target/cyber-backend-1.0-SNAPSHOT.jar
-
-
-Access at `http://localhost:8080`
-
-
-
-
