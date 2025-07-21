@@ -15,6 +15,33 @@ A cybersecurity tool for scanning network vulnerabilities, built with C++, Java 
 - Render account
 
 ## Build and Run Locally
+
+`pkg install cmake`
+
+`mkdir -p build
+cd build`
+
+`cmake ..`
+
+`make`
+
+termux
+`cmake .. -DCMAKE_INSTALL_PREFIX=$PREFIX
+make
+make install`
+
+
+summary
+`cd ~/NetScan/c++_scanner
+mkdir -p build
+cd build
+cmake ..
+make`
+
+usage
+`./scanner 127.0.0.1 1 100`
+
+
 1. **Build C++ Scanner**:
    ```bash
    cd c++_scanner
