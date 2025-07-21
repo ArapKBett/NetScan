@@ -55,12 +55,15 @@ pkg install maven`
 mvn clean package`
 
 option 1; run directly with maven
+
 `mvn spring-boot:run`
 
 option 2; run packaged jar
+
 `java -jar target/cyber-backend-1.0-SNAPSHOT.jar`
 
 to access visit
+
 `http://localhost:8080/`
 
 To allow external devices on your LAN to access your backend:
